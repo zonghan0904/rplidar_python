@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 # -*- coding:utf-8 -*-
 """
 - Version 5.0 2015/11/12

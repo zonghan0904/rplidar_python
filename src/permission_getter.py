@@ -1,15 +1,15 @@
-#!/usr/bin/env python
-""" permission_get.py 
+#!/usr/bin/env python2
+""" permission_get.py
 
 - Version 2.0 2015/8/28
 
-this file is used to aquire rfid sensor publisher communicate port permission 
+this file is used to aquire rfid sensor publisher communicate port permission
 
 Copyright (c) 2015 Xu Zhihao (Howe).  All rights reserved.
 
 This program is free software; you can redistribute it and/or modify
 
-This programm is tested on kuboki base turtlebot. 
+This programm is tested on kuboki base turtlebot.
 
 """
 import os

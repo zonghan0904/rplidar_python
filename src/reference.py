@@ -1,6 +1,6 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 # -*- coding:utf-8 -*-
-""" 
+"""
 
 this file base on rplidar protocol interface
 
@@ -8,7 +8,7 @@ Copyright (c) 2015 Xu Zhihao (Howe).  All rights reserved.
 
 This program is free software; you can redistribute it and/or modify
 
-This programm is tested on kuboki base turtlebot. 
+This programm is tested on kuboki base turtlebot.
 
 """
 from construct import *
@@ -90,7 +90,7 @@ response_device_health_format = Struct("health_format",
 # 返回单次扫描格式 (5 bytes)
 response_device_point_format = Struct("point_format",
 
- BitStruct("quality", 
+ BitStruct("quality",
   BitField("quality", 6),
   Flag("syncbit_inverse"),#扫描起始标志位的取反,始终有S̅ = ! S
   Flag("syncbit")),#扫描起始标志位,S=1 表示新的一圈 360 度扫描的开始
